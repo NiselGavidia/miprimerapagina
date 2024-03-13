@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(https://blogs.iadb.org/salud/wp-content/uploads/sites/15/2020/02/Imagenes-Post_GS-POSTEO-copy-7.png);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+    align-items: center;
+}
+
+.contendor {
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
+    margin: 1em;
+    display: flex;
+    color: black;
+}
+
+p {
+    text-align: left;
+    display: flex;
+    margin-left: 1em;
+    color: black;
+}
+
+.perfil {
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.principal {
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),
+     url(https://www.ambitojuridico.com/sites/default/files/styles/imagen_800x400/public/medico-digital-tecnologiabig.jpg.webp?itok=bDmvwZ3x);
+}
+
+
+
+.card-content{
+    display: flex;
+    align-items: center;
+}
+.card{
+    background-color: #091A28;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border:1px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(63, 62, 62);
+    transition: all 0.5s ease;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, 
+        minmax(360px, 1fr));
+    grid-gap: 30px;  
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card img:hover{
+    scale: 1.05;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.Secundario {
+    background-image: linear-gradient(rgb(154, 220, 236),rgb(174, 193, 243));
+}
+
+footer {
+    background-color: black;
+    padding: 3em;
+}
+
+footer div {
+    color: white;
+}
