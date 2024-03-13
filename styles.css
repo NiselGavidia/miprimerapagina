@@ -73,13 +73,13 @@ p {
     align-items: center;
 }
 .card{
-    background-color: #091A28;
+    background-color: #ade8f0;
     height: auto;
     width: auto;
     padding: 20px;
-    border:1px solid #FFD700;
+    border:1px skyblue;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgb(63, 62, 62);
+    /*box-shadow: 0 0 20px rgb(63, 62, 62)*/;
     transition: all 0.5s ease;
 }
 .card-content{
@@ -91,7 +91,7 @@ p {
 }
 .card img{
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
